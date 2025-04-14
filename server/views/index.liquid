@@ -2,16 +2,27 @@
 
 {% block content %}
 
-<h1 class="h1">{{ title }}</h1>
 
-<ul class="grid">
-  {% for item in items %}
-    <li>
-      <a href="/plant/{{ item.id }}">
-        {% render 'server/components/card/card.liquid', item: item %}
-      </a>
-    </li>
-  {% endfor %}
-</ul>
+
+<section class="container">
+<h2>MY MAIN</h2>
+<p>Choose what kind of base you want!</p>
+
+<div class="buttons">
+
+<form action="/meal-generator" method="POST">
+<input type="radio" name="main" value="chicken">
+<input type="radio" name="main" value="beef">
+<input type="radio" name="main" value="seafood">
+<input type="radio" name="main" value="vegetarian">
+<button type="submit"> GENERATE YOUR MEAL</button>
+</form>
+
+</div>
+
+</section>
+
+
+
 
 {% endblock %}

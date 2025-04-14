@@ -9,13 +9,123 @@
 /* component styling */
 @import '../server/components/card/card.css';
 
+.gasoek-one-regular {
+  font-family: "Gasoek One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.geist-mono-regular {
+  font-family: "Geist Mono", monospace;
+}
+
+
 body {
-  color: black;
+  /* color: black; */
   max-width: 1440px;
   margin: 0 auto;
-  background-image: url('/images/background.jpg');
+  /* background-image: url('/images/background.jpg'); */
 }
 
 main {
   padding: 1rem;
+
 }
+
+.container{
+  background-color: white;
+  border-radius: 1em;
+  height:40vh;
+  padding:2em;
+  border:2px solid #1B1C7B;
+  box-shadow: #1B1C7B 4px 3px 0px 0px;
+  margin-top: 1.8em;
+
+  p{
+  margin-bottom:6em;
+  font-family: "Geist Mono", monospace;
+  }
+
+  h2{
+  font-family: "Gasoek One", sans-serif;
+  font-size:2em;
+  color: #1B1C7B;
+  margin-bottom:.5em;
+  }
+
+}
+
+
+
+.buttons form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:1em;
+  margin-top: 5em;
+  justify-content: center;
+  text-align: center;
+
+
+
+  button{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border:2px solid #1B1C7B;
+    color:#1B1C7B;
+    box-shadow: #1B1C7B 4px 3px 0px 0px;
+    /* padding: .5rem 3rem; */
+    padding-top:.8em;
+    padding-bottom:.8em;
+    width:13em;
+    border-radius: 1em;
+    font-size:1.5em;
+    font-family: "Gasoek One", sans-serif;
+
+    &:hover {
+      color: #1B1C7B;
+      background-color: #c6c6ed;
+      cursor: pointer;
+    }
+  }
+}
+
+
+
+.buttons input[type=radio] {
+  appearance: none;
+  text-decoration: none;
+  color: white;
+  background-color: #9C9DD7;
+  border:2px solid #1B1C7B;
+  box-shadow: #1B1C7B 4px 3px 0px 0px;
+  padding: 1em;
+  border-radius: 1em;
+  font-size: 1em;
+  width:10em;
+  text-align: center;
+
+  &:hover{
+    background-color: #c6c6ed;
+    cursor: pointer;
+  }
+
+  &:checked {
+    background-color: #F6FFD3;
+    color: #1B1C7B;
+    cursor: pointer;
+  }
+  
+  &::after{
+    content:attr(value);
+    text-transform: uppercase;
+    font-family: "Geist Mono", monospace;
+  }
+}
+
+
+
+

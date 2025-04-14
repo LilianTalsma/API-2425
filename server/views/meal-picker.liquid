@@ -1,0 +1,19 @@
+{% layout "server/layouts/base.liquid" %}
+
+{% block content %}
+
+{% for meal in meals %}
+  <div class="meal">
+    <h1 class="h1">
+        Random meal: {{ meal.strMeal }}
+    </h1>
+    
+    <img src="{{ meal.strMealThumb }}" alt="{{ meal.strMeal }}">
+    
+    <a href="/meal/{{meal.idMeal}}">
+      Bekijk
+    </a>
+  </div>
+{% endfor %}
+
+{% endblock %}
