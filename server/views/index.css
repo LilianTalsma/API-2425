@@ -2,9 +2,13 @@
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-}
+} 
 
 body{
-  background: #def777;
-background: linear-gradient(0deg, rgba(222, 247, 119, 1) 0%, rgba(246, 255, 211, 1) 100%);
+background: #ebfab0;
+/* background: linear-gradient(0deg, rgba(222, 247, 119, 1) 0%, rgba(246, 255, 211, 1) 100%); */
+background-image: url(/client/images/cooking.png);
+background-size: 100px 100px;
+background-repeat:space;
 }
+

@@ -6,15 +6,21 @@
 
 <section class="container">
 <h2>MY MAIN</h2>
-<p>Choose what kind of base you want!</p>
+<p>Are you a student and out of inspiration for meals?
+    <br>
+    <br>
+    Choose your main ingredient and we will generate a meal for you.
+</p>
 
 <div class="buttons">
 
 <form action="/meal-generator" method="POST">
 <input type="radio" name="main" value="chicken">
 <input type="radio" name="main" value="beef">
+<input type="radio" name="main" value="pork">
 <input type="radio" name="main" value="seafood">
 <input type="radio" name="main" value="vegetarian">
+<input type="radio" name="main" value="vegan">
 <button type="submit"> GENERATE YOUR MEAL</button>
 </form>
 

@@ -22,10 +22,9 @@
 
 
 body {
-  /* color: black; */
   max-width: 1440px;
   margin: 0 auto;
-  /* background-image: url('/images/background.jpg'); */
+
 }
 
 main {
@@ -36,15 +35,16 @@ main {
 .container{
   background-color: white;
   border-radius: 1em;
-  height:40vh;
+  min-height:40%;
   padding:2em;
   border:2px solid #1B1C7B;
   box-shadow: #1B1C7B 4px 3px 0px 0px;
   margin-top: 1.8em;
 
   p{
-  margin-bottom:6em;
+  margin-bottom:4em;
   font-family: "Geist Mono", monospace;
+  color:#1B1C7B;
   }
 
   h2{
@@ -62,7 +62,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap:1em;
-  margin-top: 5em;
+  /* margin-top: 3em; */
   justify-content: center;
   text-align: center;
 
@@ -70,14 +70,13 @@ main {
 
   button{
     position: absolute;
-    top: 75%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #fff;
     border:2px solid #1B1C7B;
     color:#1B1C7B;
     box-shadow: #1B1C7B 4px 3px 0px 0px;
-    /* padding: .5rem 3rem; */
     padding-top:.8em;
     padding-bottom:.8em;
     width:13em;
@@ -111,6 +110,7 @@ main {
   &:hover{
     background-color: #c6c6ed;
     cursor: pointer;
+    transform: translateY(2px);
   }
 
   &:checked {
@@ -126,6 +126,112 @@ main {
   }
 }
 
+h1{
+  font-family: "Gasoek One", sans-serif;
+  font-size: 2em;
+  color: #1B1C7B;
+}
+
+
+.meal{
+
+  position: relative;
+
+  h2{
+    font-family: "geist mono", monospace;
+    font-size:1em;
+    color: #1B1C7B;
+    margin-bottom:1em;
+    margin-top:1.8em;
+  }
+
+  p{
+    font-size:1.3em;
+  }
+  
+  img{
+    width:78vw;
+    height:15em;
+    border-radius: 1em;
+    margin-bottom: .5em;
+    box-shadow: #e2e2fb 2px 3px 10px 0px;
+    border:solid 2px #1B1C7B;
+  }
+
+  a{
+    text-decoration: none;
+    color: #1B1C7B;
+    font-family: "geist mono", monospace;
+    font-size: 1em;
+    padding: .4em 1.8em;
+    top: 80%; 
+    left: 45%;
+    position: absolute;
+    border-radius: .8em;
+    background-color: #F6FFD3;
+    box-shadow: #1B1C7B 4px 3px 0px 0px;
+
+    &:hover{
+      background-color: #c6c6ed;
+      cursor: pointer;
+      transform: translateY(2px);
+    }
+  }
+}
+
+.container2{
+  background-color: white;
+  border-radius: 1em;
+  min-height:100%;
+  padding:2em;
+  border:2px solid #1B1C7B;
+  box-shadow: #1B1C7B 4px 3px 0px 0px;
+  margin-top: 1.8em;
+}
+
+.intro{
+font-family: "geist mono", monospace;
+max-width:85%;
+margin-top:2em;
+color: #1B1C7B;
+
+}
+
+.container3{
+  background-color: white;
+  border-radius: 1em;
+  min-height:100%;
+  padding:1em;
+  border:2px solid #1B1C7B;
+  box-shadow: #1B1C7B 4px 3px 0px 0px;
+  margin-top: 1.8em;
+
+  img{
+    width:78vw;
+    height:20em;
+    border-radius: 1em;
+    margin-bottom: .5em;
+    box-shadow: #e2e2fb 2px 3px 10px 0px;
+    border:solid 2px #1B1C7B;
+  }
+
+  
+}
+
+h3{
+  font-family:"gasoek one", sans-serif;
+  font-size:1.5em;
+  color: #1B1C7B;
+  margin-top:1em;
+  margin-bottom:1em;
+}
+
+ul li{
+  font-family: "geist mono", monospace;
+  margin-top:1em;
+  color:#1B1C7B;
+}
+  
 
 
 
