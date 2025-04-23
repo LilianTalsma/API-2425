@@ -110,3 +110,13 @@ Als het werkt, zet je je server weer uit door in de terminal de toetscombinatie 
 - Optioneel: Volg het [NodeJS ‘Hello World’ voorbeeld](https://medium.com/@mohammedijas/hello-world-in-node-js-b333275ddc89)
 - Optioneel, iets technischer: Lees de eerste vijf delen van [Introduction to Node](https://nodejs.dev/en/learn/) als je een meer in-depth introductie wilt met de NodeJS ontwikkelomgeving.
 
+
+**READ ME VAN LILIAN**
+
+De opdracht:
+
+Met dit vak is het de bedoeling om kennis te maken met meerdere dingen zoals Note en liquid. Ook moet de website informatie uit een api gebruiken. Dit heb ik dus ook gedaan.
+
+*WEEK 1*
+
+In week 1 was ik helaas ziek, ik had me wel verdiepd in de opdracht en met Cyd contact op genomen om mijn idee te pitchen. Ik ging eerst kijken naar wat voor een api's er allemaal te vinden waren en ik vond al snel een api over maaltijden. Ik heb zelf vaak het probleem dat ik niet weet wat ik moet eten en vond dit een perfect idee voor mijn opdracht. Ik had een schets gemaakt en die uiteindelijk dus ook uitgewerkt. Mijn concrete idee is een meal generator geworden waar mensen kunnen kiezen of ze bijvoorbeeld vlees, vis of vega maaltijden willen eten. 

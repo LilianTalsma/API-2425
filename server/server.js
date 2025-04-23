@@ -31,11 +31,11 @@ app.post('/meal-generator', async (req, res) => {
 
 })
 
-
+const api_key = 1;
 
 app.get('/meal-picker/:foodType', async (req, res) => {
   const foodType = req.params.foodType;
-  const apiURL = 'https://www.themealdb.com/api/json/v1/1/filter.php?c=' + foodType;
+  const apiURL = `https://www.themealdb.com/api/json/v1/${api_key}/filter.php?c=` + foodType;
   const mealsData = await fetch(apiURL);
   const data = await mealsData.json();
   
