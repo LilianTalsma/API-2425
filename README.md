@@ -150,3 +150,7 @@ Ook heb ik mijn project online gezet met Render, zodat anderen mijn website kunn
 
 De afgelopen weken heb heel veel geleerd over api's en wat je er allemaal mee kan. Ik vond het eerst heel moeilijk omdat ik er vrijwel geen ervaring mee had. Ook werken met liquid en node was iets wat ik nog nooit had gedaan. Uiteindelijk ben ik blij met mijn eindresultaat, als we nog meer tijd hadden had ik graag nog een functie toegevoegd waar de gebruiker alle dingen uit zijn/haar koelkast erin had kunnen zitten maar daar had ik helaas geen tijd voor. Ik heb mijn best gedaan om de code iets beter te begrijpen ookal vind ik dit nogsteeds wel lastig. Ik ben wel blij dat ik merk dat het realiseren van mijn ontwerpen mij steeds beter afgaat met CSS enzv. Uiteindelijk vond ik het best een uitdagend vak maar vond ik het wel intrerresant om over te leren. Ik ben best trots over hoeveel meer kennis ik over de api's heb.
 
+
+link naar mijn render: 
+https://api-2425-6w8e.onrender.com
+
