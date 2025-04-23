@@ -53,7 +53,7 @@ app.get('/meal/:id', async (req, res) => {
   const data = await mealData.json();
   
   const meal = data.meals[0];
-  console.log(meal);
+  console.log(meal.strInstructions);
 
   return res.send(renderTemplate('server/views/detail.liquid', {
     title: `Detail page for ${meal.strMeal}`,
@@ -69,4 +69,6 @@ const renderTemplate = (template, data) => {
 
   return engine.renderFileSync(template, templateData);
 };
+
+
 

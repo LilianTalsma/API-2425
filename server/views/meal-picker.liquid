@@ -3,6 +3,12 @@
 
 {% block content %}
 
+<header class="header">
+  <h1>MM</h1>
+  <h2>What will be my meal today?</h2>
+  <a href="/" class="homebutton">BACK</a>
+</header>
+
 <div class="container2">
 <h1>YOUR MEALS</h1>
 {% for meal in meals %}
@@ -11,7 +17,7 @@
       {{ meal.strMeal }}
     </h2>
     
-    <img src="{{ meal.strMealThumb }}" alt="{{ meal.strMeal }}">
+    <img id="mealphoto{{ meal.idMeal }}" class="mealpicca" src="{{ meal.strMealThumb }}" alt="{{ meal.strMeal }}">
     
     <a href="/meal/{{meal.idMeal}}">
     CHECK RECIPE

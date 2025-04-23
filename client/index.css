@@ -15,9 +15,39 @@
   font-style: normal;
 }
 
-
 .geist-mono-regular {
   font-family: "Geist Mono", monospace;
+}
+
+:root {
+  view-transition-name: root;
+}
+
+@view-transition {
+  navigation: auto;
+}
+
+html::view-transition {
+  animation-duration: .3s;
+}
+
+::view-transition-old(mealphoto*) {
+  opacity:1;
+}
+
+::view-transition-new(mealphoto*) {
+  opacity:0;
+  animation: fade-in 0.2s ease-in-out;
+}
+
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 
